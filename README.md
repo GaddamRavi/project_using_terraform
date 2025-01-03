@@ -20,7 +20,9 @@ EC2 Instances: Compute resources for your application.
 Prerequisites:
 --------------------------------------------
 Terraform Installed: Download Terraform.
+
 AWS CLI Installed: Install AWS CLI.
+
 AWS Access Credentials: Configure credentials with the AWS CLI:
 
 bash:
@@ -31,13 +33,15 @@ SSH Key Pair: Create an AWS key pair or use an existing one.
 
 Steps to Implement:
 -------------------------------------------------------
+
 1. Clone the Repository :
+-------------------------------------------
 bash:
 Copy code
 git clone <repository-url>
 cd <repository-directory>
 
-2. Initialize Terraform:
+3. Initialize Terraform:
 Run the following command to download the required provider plugins:
 bash:
 Copy code
@@ -61,12 +65,19 @@ Terraform Resources Created:
 VPC: A custom VPC with the specified CIDR block.
 Subnets:
 Public subnets for internet-facing resources.
+
 Private subnets for backend resources.
+
 Internet Gateway: Provides internet access to public subnets.
+
 Route Tables: Routes traffic appropriately for public and private subnets.
+
 Elastic Load Balancer (ALB): Distributes incoming traffic to backend EC2 instances.
+
 Security Groups: Controls traffic for EC2 instances and the Load Balancer.
+
 EC2 Instances: Application servers launched in private subnets.
 
-Contributing
+Contributing:
+----------------------------------------------------
 Contributions are welcome! Feel free to submit a pull request or open an issue.
