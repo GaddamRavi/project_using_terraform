@@ -25,7 +25,6 @@ AWS CLI Installed: Install AWS CLI.
 
 AWS Access Credentials: Configure credentials with the AWS CLI:
 
-bash:
 ---------------------------------------------
 Copy code
 aws configure
@@ -59,6 +58,8 @@ bash:
 Copy code
 terraform apply
 Confirm with yes when prompted.
+![Screenshot 2025-01-03 142739](https://github.com/user-attachments/assets/2431e389-0caf-4271-a264-8c112bef47be)
+
 
 Terraform Resources Created:
 -------------------------------------------------
